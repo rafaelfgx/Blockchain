@@ -1,0 +1,14 @@
+{
+    "name": "wallet",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "bip32": "5.0.0",
+        "bip39": "3.1.0",
+        "bitcoinjs-lib": "7.0.0",
+        "tiny-secp256k1": "2.2.4"
+    },
+    "scripts": {
+        "update": "npm install -g npm-check-updates && ncu -u"
+    }
+}
