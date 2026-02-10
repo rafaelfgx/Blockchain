@@ -1,0 +1,38 @@
+name: build
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: DotNet Setup
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.x.x'
+
+      - name: Node Setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+          check-latest: true
+
+      - name: Blockchain
+        working-directory: Blockchain
+        run: dotnet build
+
+      - name: Wallet
+        working-directory: Wallet
+        run: npm install && npm run start
+
+      - name: Solidity Contracts
+        working-directory: Solidity/Contracts
+        run: npm install && npm run start
+
+      - name: Solidity Pokemon
+        working-directory: Solidity/Pokemon
+        run: npm install && npm run start
