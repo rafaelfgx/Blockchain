@@ -1,0 +1,14 @@
+{
+    "name": "contracts",
+    "type": "module",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-ethers-chai-matchers": "3.0.2",
+        "@nomicfoundation/hardhat-toolbox-mocha-ethers": "3.0.2",
+        "@openzeppelin/contracts": "5.4.0",
+        "hardhat": "3.1.9"
+    },
+    "scripts": {
+        "update": "npx npm-check-updates -u",
+        "start": "npx hardhat clean && npx hardhat build && npx hardhat test"
+    }
+}
