@@ -1,0 +1,14 @@
+{
+    "name": "pokemon",
+    "type": "module",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-ethers-chai-matchers": "3.0.6",
+        "@nomicfoundation/hardhat-toolbox-mocha-ethers": "3.0.4",
+        "@openzeppelin/contracts": "5.6.1",
+        "hardhat": "3.4.2"
+    },
+    "scripts": {
+        "update": "npx npm-check-updates -u",
+        "start": "npx hardhat clean && npx hardhat build && npx hardhat test"
+    }
+}
