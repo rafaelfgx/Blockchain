@@ -1,0 +1,206 @@
+lockfileVersion: "9.0"
+
+settings:
+    autoInstallPeers: true
+    excludeLinksFromLockfile: false
+
+importers:
+    .:
+        dependencies:
+            bip32:
+                specifier: 5.0.1
+                version: 5.0.1
+            bip39:
+                specifier: 3.1.0
+                version: 3.1.0
+            bitcoinjs-lib:
+                specifier: 7.0.1
+                version: 7.0.1
+            tiny-secp256k1:
+                specifier: 2.2.4
+                version: 2.2.4
+
+packages:
+    "@noble/hashes@1.8.0":
+        resolution:
+            {
+                integrity: sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==,
+            }
+        engines: { node: ^14.21.3 || >=16 }
+
+    "@scure/base@1.2.6":
+        resolution:
+            {
+                integrity: sha512-g/nm5FgUa//MCj1gV09zTJTaM6KBAHqLN907YVQqf7zC49+DcO4B1so4ZX07Ef10Twr6nuqYEH9GEggFXA4Fmg==,
+            }
+
+    base-x@5.0.1:
+        resolution:
+            {
+                integrity: sha512-M7uio8Zt++eg3jPj+rHMfCC+IuygQHHCOU+IYsVtik6FWjuYpVt/+MRKcgsAMHh8mMFAwnB+Bs+mTrFiXjMzKg==,
+            }
+
+    bech32@2.0.0:
+        resolution:
+            {
+                integrity: sha512-LcknSilhIGatDAsY1ak2I8VtGaHNhgMSYVxFrGLXv+xLHytaKZKcaUJJUE7qmBr7h33o5YQwP55pMI0xmkpJwg==,
+            }
+
+    bip174@3.0.0:
+        resolution:
+            {
+                integrity: sha512-N3vz3rqikLEu0d6yQL8GTrSkpYb35NQKWMR7Hlza0lOj6ZOlvQ3Xr7N9Y+JPebaCVoEUHdBeBSuLxcHr71r+Lw==,
+            }
+        engines: { node: ">=18.0.0" }
+
+    bip32@5.0.1:
+        resolution:
+            {
+                integrity: sha512-PWlHIAgYCfVhwqNpZyeakHXuLAGyN6rEQZnhxHxKI3BoFJRVWLl26455fhRlHsmbYcV986HqtPnt33Edu5sTCw==,
+            }
+        engines: { node: ">=18.0.0" }
+
+    bip39@3.1.0:
+        resolution:
+            {
+                integrity: sha512-c9kiwdk45Do5GL0vJMe7tS95VjCii65mYAH7DfWl3uW8AVzXKQVUm64i3hzVybBDMp9r7j9iNxR85+ul8MdN/A==,
+            }
+
+    bitcoinjs-lib@7.0.1:
+        resolution:
+            {
+                integrity: sha512-vwEmpL5Tpj0I0RBdNkcDMXePoaYSTeKY6mL6/l5esbnTs+jGdPDuLp4NY1hSh6Zk5wSgePygZ4Wx5JJao30Pww==,
+            }
+        engines: { node: ">=18.0.0" }
+
+    bs58@6.0.0:
+        resolution:
+            {
+                integrity: sha512-PD0wEnEYg6ijszw/u8s+iI3H17cTymlrwkKhDhPZq+Sokl3AU4htyBFTjAeNAlCCmg0f53g6ih3jATyCKftTfw==,
+            }
+
+    bs58check@4.0.0:
+        resolution:
+            {
+                integrity: sha512-FsGDOnFg9aVI9erdriULkd/JjEWONV/lQE5aYziB5PoBsXRind56lh8doIZIc9X4HoxT5x4bLjMWN1/NB8Zp5g==,
+            }
+
+    tiny-secp256k1@2.2.4:
+        resolution:
+            {
+                integrity: sha512-FoDTcToPqZE454Q04hH9o2EhxWsm7pOSpicyHkgTwKhdKWdsTUuqfP5MLq3g+VjAtl2vSx6JpXGdwA2qpYkI0Q==,
+            }
+        engines: { node: ">=14.0.0" }
+
+    uint8array-tools@0.0.7:
+        resolution:
+            {
+                integrity: sha512-vrrNZJiusLWoFWBqz5Y5KMCgP9W9hnjZHzZiZRT8oNAkq3d5Z5Oe76jAvVVSRh4U8GGR90N2X1dWtrhvx6L8UQ==,
+            }
+        engines: { node: ">=14.0.0" }
+
+    uint8array-tools@0.0.8:
+        resolution:
+            {
+                integrity: sha512-xS6+s8e0Xbx++5/0L+yyexukU7pz//Yg6IHg3BKhXotg1JcYtgxVcUctQ0HxLByiJzpAkNFawz1Nz5Xadzo82g==,
+            }
+        engines: { node: ">=14.0.0" }
+
+    uint8array-tools@0.0.9:
+        resolution:
+            {
+                integrity: sha512-9vqDWmoSXOoi+K14zNaf6LBV51Q8MayF0/IiQs3GlygIKUYtog603e6virExkjjFosfJUBI4LhbQK1iq8IG11A==,
+            }
+        engines: { node: ">=14.0.0" }
+
+    valibot@1.4.0:
+        resolution:
+            {
+                integrity: sha512-iC/x7fVcSyOwlm/VSt7RlHnzNGLGvR9GnxdifUeWoCJo0q4ZZvrVkIHC6faTlkxG47I2Y4UrFquPuVHCrOnrLg==,
+            }
+        peerDependencies:
+            typescript: ">=5"
+        peerDependenciesMeta:
+            typescript:
+                optional: true
+
+    varuint-bitcoin@2.0.0:
+        resolution:
+            {
+                integrity: sha512-6QZbU/rHO2ZQYpWFDALCDSRsXbAs1VOEmXAxtbtjLtKuMJ/FQ8YbhfxlaiKv5nklci0M6lZtlZyxo9Q+qNnyog==,
+            }
+
+    wif@5.0.0:
+        resolution:
+            {
+                integrity: sha512-iFzrC/9ne740qFbNjTZ2FciSRJlHIXoxqk/Y5EnE08QOXu1WjJyCCswwDTYbohAOEnlCtLaAAQBhyaLRFh2hMA==,
+            }
+
+snapshots:
+    "@noble/hashes@1.8.0": {}
+
+    "@scure/base@1.2.6": {}
+
+    base-x@5.0.1: {}
+
+    bech32@2.0.0: {}
+
+    bip174@3.0.0:
+        dependencies:
+            uint8array-tools: 0.0.9
+            varuint-bitcoin: 2.0.0
+
+    bip32@5.0.1:
+        dependencies:
+            "@noble/hashes": 1.8.0
+            "@scure/base": 1.2.6
+            uint8array-tools: 0.0.8
+            valibot: 1.4.0
+            wif: 5.0.0
+        transitivePeerDependencies:
+            - typescript
+
+    bip39@3.1.0:
+        dependencies:
+            "@noble/hashes": 1.8.0
+
+    bitcoinjs-lib@7.0.1:
+        dependencies:
+            "@noble/hashes": 1.8.0
+            bech32: 2.0.0
+            bip174: 3.0.0
+            bs58check: 4.0.0
+            uint8array-tools: 0.0.9
+            valibot: 1.4.0
+            varuint-bitcoin: 2.0.0
+        transitivePeerDependencies:
+            - typescript
+
+    bs58@6.0.0:
+        dependencies:
+            base-x: 5.0.1
+
+    bs58check@4.0.0:
+        dependencies:
+            "@noble/hashes": 1.8.0
+            bs58: 6.0.0
+
+    tiny-secp256k1@2.2.4:
+        dependencies:
+            uint8array-tools: 0.0.7
+
+    uint8array-tools@0.0.7: {}
+
+    uint8array-tools@0.0.8: {}
+
+    uint8array-tools@0.0.9: {}
+
+    valibot@1.4.0: {}
+
+    varuint-bitcoin@2.0.0:
+        dependencies:
+            uint8array-tools: 0.0.8
+
+    wif@5.0.0:
+        dependencies:
+            bs58check: 4.0.0
